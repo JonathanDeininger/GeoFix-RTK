@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ntripmocklocation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:3:5-79
+11-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+12-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:5:5-67
+13-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:6:5-81
+14-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:6:22-78
+15
+16    <permission
+16-->[androidx.core:core:1.10.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3270b6d058ba4e448095dc4a4630c40f\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.ntripmocklocation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.10.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3270b6d058ba4e448095dc4a4630c40f\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.10.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3270b6d058ba4e448095dc4a4630c40f\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.ntripmocklocation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.10.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3270b6d058ba4e448095dc4a4630c40f\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.10.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3270b6d058ba4e448095dc4a4630c40f\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:8:5-20:19
+23        android:allowBackup="true"
+23-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.10.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3270b6d058ba4e448095dc4a4630c40f\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:label="GeoFix"
+27-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:10:9-31
+28        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+28-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:11:9-67
+29        <activity
+29-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:12:9-19:20
+30            android:name="com.example.ntripmocklocation.MainActivity"
+30-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:13:13-41
+31            android:exported="true" >
+31-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:14:13-36
+32            <intent-filter>
+32-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:15:13-18:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:16:17-69
+33-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:16:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:17:17-77
+35-->C:\Users\J_Dei\OneDrive\Desktop\NtripMockLocationAppFinal\app\src\main\AndroidManifest.xml:17:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.ntripmocklocation.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\J_Dei\.gradle\caches\8.13\transforms\3ba9d4321ecf3a7c0c34d762d24ec371\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\f5c5d0e53eb30802dfd1d9a2214959f9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\f5c5d0e53eb30802dfd1d9a2214959f9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\J_Dei\.gradle\caches\8.13\transforms\f5c5d0e53eb30802dfd1d9a2214959f9\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
